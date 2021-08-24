@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+header{
+    /* background-color:green; */
+    background-image: linear-gradient(to right, green , yellow);
+    
+}
+footer{
+    /* background-color: green; */
+    background-image: linear-gradient(to right, green , yellow);
+    color:white;
+}
+header, footer{
+    text-align: center;
+}
+#a, #b, #c{
+    background-color:white;
+    color:black;
+    background: rgba(76, 175, 80,0.3);
+}
+body{
+   
+    background-position: COVER;
+}
+HEADER, FOOTER{
+    padding: 20px;
+    margin-top: 30px;
+}
+content{
+    color:black;
+}
+p{
+    padding: 9px;
+}
+.box1, .box5{
+    border: 1px solid white;
+    width: 46vw;
+    margin: 25px;
+    padding: 6px;
+}
+.subox1{
+    margin-left: 40px;
+    color: red;
+}
+#sp{
+    color: black;
+}
+#body{
+    color: brown;
+}
+span{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+.z{
+    text-align: center;
+}
+.box1{
+    width: auto;
+    margin: 25px;
+    padding: 16px;
+    background-color: #E7E9EB;
+    color: black;
+    background-size: 100%;
+}
+.box2{
+   
+    width: auto;
+    margin: 25px;
+    padding: 16px;
+    background-color:#E7E9EB;
+    color: black;
+}
+.subox2{
+    border: 1px solid black;
+    padding: 16px;
+    background:none;
+}
+.box3{
+   
+    width: auto;
+    margin: 25px;
+    padding: 16px;
+    background-color: #E7E9EB;
+    color: black;
+}
+.subox3{
+    border: 1px solid black;
+    padding: 16px;
+    background:none;
+}
+.subbbox2{
+    width: 46vw;
+    margin: 0px 58px;
+}
+.box4{
+    width: auto;
+    margin: 25px;
+    padding: 16px;
+    background-color: #E7E9EB;
+    color: black;
+}
+.subox4{
+    border: 1px solid black;
+    padding: 16px;
+    background:none;
+    margin: 5px;
+}
+.box5{
+    background-color: #E7E9EB;
+    color: black;
+    width: 93vw;
+}
+.box6{
+    width: auto;
+    margin: 25px;
+    padding: 16px;
+    background-color:#E7E9EB;
+    color: black;
+}
+.subox6{
+    border: 1px solid black;
+    padding: 16px;
+    background:none;
+    margin: 5px;
+}
+h1{
+    color: white;
+}
+h3{
+    padding: 7px;
+}
+button{
+    padding:12px;
+    font-size: 20px;
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-color: #04AA6D;
+    border: none;
+    border-radius: 7px;
+    margin:7px;
+    
+}
+#cc{
+    float: right;
+}
+h3#z {
+    text-align: center;
+    font-size: 25px;
+}
+
+#foot{
+    text-align: center;;
+}
+img{
+    height: 14px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: green;
+}
+</style>
+
+<body>
+    <header>
+        <h1>W<sup>3</sup> <br>Schools</h1>
+    </header>
+    <content>
+       <hr>
+        <h3 id="z">CSS Backgrounds</h3>
+        <button id="cc"><a href="https://www.w3schools.com/css/css_background_image.asp"><b> Next</b> <img src="left.png"></a></button>
+        <button id="dd"><img src="right.png"><a href="https://www.w3schools.com/css/css_colors_hsl.asp"> Previous</a></button>
+        <hr>
+        <p>The CSS background properties are used to add background effects for elements.</p>
+       
+        <div class="box1">
+            <p>In these chapters, you will learn about the following CSS background properties:</p>
+            <div class="subox1">
+                <ul>
+                    <li>background-color</li>
+                    <li>background-image</li>
+                    <li>background-repeat</li>
+                    <li>background-attachment</li>
+                    <li>background-position</li>
+                    <li>background <span id="sp">(shorthand property)</span></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <h3>CSS background-color</h3>
+        <hr>
+        <p>The <span>background-color</span> property specifies the background color of an element.</p>
+        <div class="box2">
+            <h2>Example</h2>
+            <p>The background color of a page is set like this:</p>
+            <div class="subox2">
+<pre><span id="body">body </span>{
+        <span>background-color</span>: <span id="blue">lightblue</span>;
+        }</pre>
+            </div>
+        </div>
+        <p>With CSS, a color is most often specified by:</p>
+        <div class="subbbox2">
+            <ul>
+                <li>a valid color name - like "red"</li>
+                <li>a HEX value - like "#ff0000"</li>
+                <li>an RGB value - like "rgb(255,0,0)"</li>
+            </ul>
+        </div>
+        <p>Look at <u>CSS Color Values</u> for a complete list of possible color values.</p>
+        <hr>
+        <h3>Other Elements</h3>
+        <hr>
+        <p>You can set the background color for any HTML elements:</p>
+        <div class="box3">
+            <h2>Example</h2>
+            <p> Here, the h1, p, and div elements will have different background colors:</p>
+                <div class="subox3">
+                   <pre>
+        <span id="body">h1</span> {
+                <span>background-color</span>: <span id="blue">green</span> ;
+           }
+           <span id="body">div</span> {
+                 <span>background-color</span>: <span id="blue">lightblue</span>;
+           }
+                      
+           <span id="body">p</span> {
+                <span>background-color</span>: <span id="blue">yellow</span>;
+           }</pre>
+                </div>
+        </div>
+        <hr>
+        <h3>Opacity / Transparency</h3>
+        <hr>
+        <p>The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:</p>
+        <div class="box4">
+            <h2>Example</h2>
+            <div class="subox4">
+                <pre>
+    <span id="body">div</span> {
+            <span>background-color</span>: <span id="blue">green</span>;
+            <span>opacity</span>: <span id="blue">0.3</span>;
+        }</pre>
+            </div>
+        </div>
+        <div class="box5">
+            <b>Note:</b> When using the <font color="red">opacity</font> property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read.
+        </div>
+        <hr>
+        <h3>Transparency using RGBA</h3>
+        <hr>
+        <p>If you do not want to apply opacity to child elements, like in our example above, use RGBA color values. The following example sets the opacity for the background color and not the text:</p>
+        <p>You learned from our CSS Colors Chapter, that you can use RGB as a color value. In addition to RGB, you can use an RGB color value with an alpha channel (RGBA) - which specifies the opacity for a color.</p>
+        <p>An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).</p>
+        <p><b>Tip:</b> You will learn more about RGBA Colors in our CSS Colors Chapter.</p>
+        <div class="box6">
+            <h2>Example</h2>
+            <div class="subox6">
+                <pre>
+    <span id="body">div</span> {
+            <span>background </span>:<span id="blue"> rgba(0, 128, 0, 0.3)</span>  <font color="green">* Green background with 30% opacity */</font>
+        }</pre>
+            </div>
+        </div>
+        <button id="cc"><a href="https://www.w3schools.com/css/css_background_image.asp"><b> Next</b> <img src="left.png"></a></button>
+        <button id="dd"><img src="right.png"><a href="https://www.w3schools.com/css/css_colors_hsl.asp"> Previous</a></button>
+    </content>
+    <footer>
+        <p id="foot">W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+        <p id="foot">Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
+            W3Schools is Powered by W3.CSS.</p>
+            <h1>W<sup>3</sup> <br>Schools</h1>
+    </footer>
+</body>
+
+</html>
